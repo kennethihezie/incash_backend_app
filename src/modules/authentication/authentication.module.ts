@@ -4,7 +4,7 @@ import { AuthenticationService } from './authentication.service';
 import { AccessTokenStrategy } from './strategies/access-token.strategy';
 import { RefreshTokenStrategy } from './strategies/refresh-token.strategy';
 import { JwtModule } from '@nestjs/jwt';
-import { UsersModule } from 'src/users/users.module';
+import { UsersModule } from 'src/modules/users/users.module';
 import { APP_FILTER } from '@nestjs/core';
 import { HttpExceptionFilter } from 'src/lib/exception/app_exception';
 

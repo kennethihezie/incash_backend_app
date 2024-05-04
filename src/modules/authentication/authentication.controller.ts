@@ -6,7 +6,7 @@ import { AuthenticationService } from './authentication.service';
 import { LoginDto } from './dto/login.dto';
 import { AccessTokenGuard } from './guard/access-token.guard';
 import { RefreshTokenGuard } from './guard/refresh-token.guard';
-import { UserDto } from 'src/users/model/dto/user.dto';
+import { UserDto } from 'src/modules/users/model/dto/user.dto';
 import { ResponseFormat } from 'src/lib/exception/request_format';
 
 

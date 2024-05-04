@@ -5,7 +5,7 @@ import { AppMessages } from 'src/lib/constants/app_messages';
 import { AppCodes } from 'src/lib/constants/app_code';
 import { UpdateUserDto } from './model/dto/update-user.dto';
 import { UserDto } from './model/dto/user.dto';
-import { AccessTokenGuard } from 'src/authentication/guard/access-token.guard';
+import { AccessTokenGuard } from 'src/modules/authentication/guard/access-token.guard';
 import { ResponseFormat } from 'src/lib/exception/request_format';
 
 @UseGuards(AccessTokenGuard)

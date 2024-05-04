@@ -2,10 +2,10 @@ import { BadRequestException, ForbiddenException, Injectable } from '@nestjs/com
 import { ConfigService } from '@nestjs/config';
 import { JwtService } from '@nestjs/jwt';
 import { Helpers } from 'src/lib/helper/helpers';
-import { UsersService } from 'src/users/users.service';
+import { UsersService } from 'src/modules/users/users.service';
 import { LoginDto } from './dto/login.dto';
 import { AppKeys } from 'src/lib/constants/app_keys';
-import { UserDto } from 'src/users/model/dto/user.dto';
+import { UserDto } from 'src/modules/users/model/dto/user.dto';
 
 
 @Injectable()

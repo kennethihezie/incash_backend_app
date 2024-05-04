@@ -5,7 +5,7 @@ import { Response, Request } from 'express';
 import { AppMessages } from 'src/lib/constants/app_messages';
 import { AppCodes } from 'src/lib/constants/app_code';
 import { UpdateCommentDto } from './model/dto/update-comment.dto';
-import { AccessTokenGuard } from 'src/authentication/guard/access-token.guard';
+import { AccessTokenGuard } from 'src/modules/authentication/guard/access-token.guard';
 import { ResponseFormat } from 'src/lib/exception/request_format';
 
 
